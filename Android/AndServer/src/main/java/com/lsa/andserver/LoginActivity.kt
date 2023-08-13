@@ -55,8 +55,6 @@ class LoginActivity : AppCompatActivity() {
                     //맵 생성
                     val params:MutableMap<String,String> = HashMap<String,String>()
                     val amv = AndMemberVO(inputId,inputPw,null,null)
-
-
                     //AndMemberVO(Object)-> json형태 변환
                     params.put("AndMember", Gson().toJson(amv))
                     return params
