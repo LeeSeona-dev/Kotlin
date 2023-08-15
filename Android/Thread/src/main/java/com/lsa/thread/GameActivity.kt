@@ -24,7 +24,6 @@ class GameActivity : AppCompatActivity() {
 
         // 생성될 때 ImageView 를 전달받는 Thread 를 설계
         // 알고리즘 => run() 메소드안에
-
         cntThread(tv_time,10).start()
         //new cntThread().start()
 
