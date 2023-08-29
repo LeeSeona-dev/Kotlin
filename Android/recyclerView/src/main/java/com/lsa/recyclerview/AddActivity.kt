@@ -17,7 +17,6 @@ class AddActivity : AppCompatActivity() {
         etAddTitle = findViewById(R.id.etAddTitle)
         etAddUrl = findViewById(R.id.etAddUrl)
         btnAdd = findViewById(R.id.btnAdd)
-
         btnAdd.setOnClickListener{
             var add_title = etAddTitle.text.toString()
             var add_url = etAddUrl.text.toString()
