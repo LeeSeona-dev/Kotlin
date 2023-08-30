@@ -46,6 +46,7 @@ class LoginActivity : AppCompatActivity() {
                 {
                     error->
                     Log.d("error",error.toString())
+                
                 }
             )
             //  +getParams(id,pw)
