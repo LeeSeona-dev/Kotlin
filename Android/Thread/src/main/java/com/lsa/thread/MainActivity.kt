@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
         etNum = findViewById(R.id.etNum)
 
 
-
         btn_start1.setOnClickListener {
             //버튼을 클릭했을때 숫자를 가져와야한다! 시점 중요!!
             var startNum = etNum.toString().toInt()
