@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
                         val latitude = location?.latitude
                         val longitude = location?.longitude
                     })
-
                 } else {
                     ActivityCompat.requestPermissions(this@MainActivity, arrayOf(Manifest.permission.ACCESS_FINE_LOCATION), requestLocationCode)
                 }
