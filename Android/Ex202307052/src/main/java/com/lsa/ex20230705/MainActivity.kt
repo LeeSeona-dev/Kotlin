@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
 
         // 5. button2 눌렀을때 원래 텍스트 나오게하기(글자 색도 바꾸기)
 
-
         btn2.setOnClickListener {
             tv1.text="textView"
             tv1.setTextColor(Color.BLUE)
