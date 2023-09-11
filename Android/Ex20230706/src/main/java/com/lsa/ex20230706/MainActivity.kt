@@ -30,8 +30,6 @@ class MainActivity : AppCompatActivity() {
 
         //Toggle Event 실습
 
-
-
         var isKorean : Boolean = true
 
         var cnt: Int= 0
