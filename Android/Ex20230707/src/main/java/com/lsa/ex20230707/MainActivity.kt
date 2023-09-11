@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
 //            tv_result.text = resultInt.toString()
 //        }
 //    }
+
     //하나의 메서드안에서 처리하기
     fun btnClick(currentClick: View) {
         //버튼이 늘어날 때마다 메서드를 하나씩 계속 추가해야하나..?
