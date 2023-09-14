@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
                 // 위치 제공자를 사용 할 수 없을때
             }
         }
-
         val onConnectionFailedCallback = object : OnConnectionFailedListener {
             override fun onConnectionFailed(p0: ConnectionResult) {
                 // 사용할 수 있는 위치 제공자가 없을때
