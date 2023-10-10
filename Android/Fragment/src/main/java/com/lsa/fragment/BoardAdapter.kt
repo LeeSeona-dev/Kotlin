@@ -18,7 +18,6 @@ class BoardAdapter(var context : Context, var template :Int, var data:ArrayList<
             LayoutInflater.from(parent.context).inflate(R.layout.board_item,parent,false)
         )
     }
-
     override fun getItemCount(): Int {
         return data.size
     }
