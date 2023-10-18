@@ -21,7 +21,6 @@ class BoardAdapter(var context : Context, var template :Int, var data:ArrayList<
     override fun getItemCount(): Int {
         return data.size
     }
-
     override fun onBindViewHolder(holder: BoardViewHolder, position: Int) {
 //        var tv_boardTitle : TextView = holder.tv_boardTitle
 //        var tv_boardId : TextView = holder.tv_boardId
@@ -31,7 +30,6 @@ class BoardAdapter(var context : Context, var template :Int, var data:ArrayList<
         holder.tv_boardId.text = BoardDataVO.tv_boardWriter
         holder.tv_boardLike.text = BoardDataVO.tv_Like.toString()
         holder.tv_boardTitle.text = BoardDataVO.tv_boardTitle
-
     }
 
 
